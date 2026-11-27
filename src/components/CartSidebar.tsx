@@ -12,7 +12,7 @@ interface CartSidebarProps {
 
 export default function CartSidebar({ cart, totalPrice, onDrop, onUpdateQuantity, onRemove, onPurchase }: CartSidebarProps) {
   return (
-    <section className="w-[300px] flex-shrink-0">
+    <section className="w-75 flex-shrink-0">
       <h1 className="text-2xl font-bold mb-6"><i className="fa-solid fa-cart-plus"></i> 장바구니</h1>
       <div className="border border-gray-300 p-[10px] relative pb-[50px] min-h-[400px]">
         <div 
